@@ -45,5 +45,5 @@ jobs:
       with:
         solution-folder: out/solutions/ALMLab
         solution-target-folder: solutions/ALMLab
-        repo-token: ${{ secrets.TOKEN }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
         allow-empty-commit: true
